@@ -493,6 +493,7 @@ label.text {
 .color-minus{
 	color: #06fa5a!important;
 }
+.color_info{color:#ed2e17;}
 /*icon*/
 .Icon{display:inline-block;background-repeat: no-repeat;background-position: center;}
 .Icon-menu,.Icon-search,.Icon-back{width:49px;height:49px;background-image: url(../img/menu.png);position:absolute;top:0;left:5px;background-size:50%;}
@@ -518,13 +519,13 @@ label.text {
 .main{width:100%;min-height:100%;}
 .menu{padding:1.5rem 0.4rem 1.2rem 0.4rem;border-bottom:1px solid #c8c8c8;color:#636363;}
 .menu div{width:25%;float:left;}
-.menu span{display: inline-block;width:4.17rem;margin:0 1rem;}
+.menu span{display: inline-block;width:4.17rem;margin:0 1rem;font-size:1rem;}
 .menu .Icon{width:4.17rem;height:4.17rem;border-radius:50%;margin:0 auto;background-color:#f0c602;background-image: url(../img/dk.png);background-size:62%;}
 .menu div:nth-child(2) .Icon{background-color:#1d94be;background-image: url(../img/lc.png);}
 .menu div:nth-child(3) .Icon{background-color:#f5475e;background-image: url(../img/xyk.png);}
 .menu div:nth-child(4) .Icon{background-color:#3ec264;background-image: url(../img/js.png);}
 .inner{padding:10px;}
-.news_one{color:#787878;}
+.news_one{color:#787878;position: relative;}
 .tip{color:#eb2c19;}
 .title{color:#1f1f1f;}
 .feed{min-height:80px;padding:10px 15px;background:#fafafa;border:1px solid #dcdcdc;position:relative;color:#3c3c3c;}
@@ -538,6 +539,7 @@ label.text {
 .Icon-user2{background-image:url(../img/me3.png);background-size:89%!important;}
 .Icon-chat{background-image:url(../img/chat.png);}
 .Icon-eye{background-image:url(../img/eye.png);}
+.Icon-book{background-image:url(../img/book.png);}
 .banner {position: relative;overflow:hidden;}
 .banner ul{width:9999px;}
 .banner li{float:left;}
@@ -601,8 +603,8 @@ background-repeat:no-repeat;background-image: url(../img/card1.png);background-s
 .user-img img,.user-img{width:5rem;height:5rem;border-radius: 50%;}
 .slogan{padding-top:35%;}
 
-
-
+.inner .news_one{border:1px solid #c8c8c8;padding:12px 10px 3rem 10px;padding-bottom:3rem;margin-top:-1px;background:#fafafa;}
+.inner .news_one:nth-child(2n){background:#fff;}
 
 
 

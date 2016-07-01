@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta name="apple-touch-fullscreen" content="yes"/>
+	<meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"> 
+	<link rel="stylesheet" type="text/css" href="css/appstyle.css">
+	<title>关于我们</title>
+</head>
+<body>
+<header class="header">
+	<span class="Icon Icon-back" id=""></span>
+	<h1 class="font20 strong">关于我们</h1>
+</header>
+<div class="main bgwhite Ios_scroll" style="position:fixed;top:50px;bottom:0;overflow-y: auto;">
+	<p class="aligncenter mart40"><img src="img/header-logo.png" width="70"></p>
+	<div class="inner about mart20 p-bt40 font14">
+		<p class="txt-indent">融助手－提供全面、精准的金融服务，快速申请贷款、信用卡，购买理财产品，查询央行信用报告、各种金融计算器、金融贷款理财知识等服务 ，支持微信登录。您身边的金融专家，财务好管家。金融助手，最好用最贴心的金融垂直搜索平台。</p>
+		<p class="mart10 color-3 strong">产品特点</p>
+		<p class="mart5">1、贷款：20000款银行贷款产品，根据用户资质智能推荐，30秒申请，4步轻松搞定贷款，让你贷款感觉从未如此简单；</p>
+		<p class="mart5">2、理财：精准理财产品评测，7*24小时理财资讯，超过12%收益率，100％本息保障；</p>
+		<p class="mart5">3、信用卡：10000张信用卡任您挑选，批卡快、额度高，及时掌握中国区各大银行机构信用卡办理进度；</p>
+		<p class="mart5">4、金融计算器：能为你提供专业、精准的工资计算、房贷计算、税费计算，算工资、买房子、交税费、公积金等贷款的月供及总利息计算，一步到位，满足您不同的贷款计算需求。</p>
+		<p class="mart5">5、信用报告：中国人民银行征信中心权威报告，手机查询、无需排队、无需付费；</p>
+		<p class="mart10 color-3 strong">联系我们</p>
+		<p class="mart5">QQ：3092959436</p>
+		<p class="mart5">邮箱：jinrongkuaixun@qq.com</p>
+	</div>
+</div>
+</body>
+</html>

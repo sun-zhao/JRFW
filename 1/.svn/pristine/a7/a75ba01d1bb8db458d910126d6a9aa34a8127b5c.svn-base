@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0，user-scalable=0">
+    <!--<meta http-equiv="X-UA-Compatible" content="IE=8">&lt;!&ndash;以IE8模式渲染&ndash;&gt;-->
+    <title>狮友会父亲节</title>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/show.js"></script>
+    <script type="text/javascript" src="js/jquery.lazyload.min.js"></script>
+    <script type="text/javascript">
+        $(function() {
+          $("img").lazyload({
+                placeholder : "images/loading.gif",
+                effect: "fadeIn",
+                failurelimit : 10
+           });
+      });
+    </script>
+</head>
+<body>
+<!--头部begin-->
+<div class="header-out">
+    <div class="header clearfix">
+        <span class="slogan floatleft"><img src="images/slogan.jpg"></span>
+        <div class="header-top floatleft">
+            <div class="logo">
+                <a href="javascript:;" target="_blank"><img src="images/logo-1.png"></a>
+                <a href="javascript:;" target="_blank" style="top:0;display:none;"><img src="images/logo-2.png"></a>
+            </div>
+        </div>
+        <a href="javascript:;" class="font14 color-white mart20 floatright">返回狮友汇首页</a>
+    </div>
+</div>
+<!--头部over-->
+<div class="layout">
+    <div class="content">
+        <div class="pic-main clearfix mart5" style="height:auto;">
+            <ul class="col floatleft nomarl">
+                <li>
+                    <span class="arrow l-side"></span>
+                    <span class="arrow t-side"></span>
+                    <span class="arrow r-side"></span>
+                    <span class="arrow b-side"></span>
+                    <span class="arrow l-t"></span>
+                    <span class="arrow r-t"></span>
+                    <span class="arrow l-bt"></span>
+                    <span class="arrow r-bt"></span>
+                    <p class="pic-title"><span class="font14">刘德华</span></p>
+                    <div class="loaction clearfix"></div>
+                    <a href="javascript:;" class="pic-img"><img src="images/022.gif" data-original="http://img002.21cnimg.com/photos/album/20141217/m320/8A672EB5C0D55E639CBBBF315BA141CE.jpeg" srv="http://img002.21cnimg.com/photos/album/20141217/m320/8A672EB5C0D55E639CBBBF315BA141CE.jpeg" title="srv里面是大图的地址"></a>
+                </li>
+                <li>
+                    <span class="arrow l-side"></span>
+                    <span class="arrow t-side"></span>
+                    <span class="arrow r-side"></span>
+                    <span class="arrow b-side"></span>
+                    <span class="arrow l-t"></span>
+                    <span class="arrow r-t"></span>
+                    <span class="arrow l-bt"></span>
+                    <span class="arrow r-bt"></span>
+                    <p class="pic-title"><span class="font16">行走江湖</span></p>
+                    <div class="loaction clearfix">
+                        <p>如果还有话想说，就在评论里留言吧，这里都是懂你的人，总有人回复你。说你想说的，鼓励与安慰、烦恼与压力，释放自己，也成全别人。</p>
+                        <p class="alignright"><a href="javascript:;">查看&gt;</a></p>
+                    </div>
+                    <a href="javascript:;" class="pic-img"><img src="images/022.gif" data-original="images/2.jpg" srv="http://gb.cri.cn/mmsource/images/2013/02/22/35/14607758026320856623.jpg"></a>
+                </li>
+                <li>
+                    <span class="arrow l-side"></span>
+                    <span class="arrow t-side"></span>
+                    <span class="arrow r-side"></span>
+                    <span class="arrow b-side"></span>
+                    <span class="arrow l-t"></span>
+                    <span class="arrow r-t"></span>
+                    <span class="arrow l-bt"></span>
+                    <span class="arrow r-bt"></span>
+                    <p class="pic-title"><span class="font16">行走江湖</span></p>
+                    <div class="loaction clearfix">
+                       <p>如果还有话想说，就在评论里留言吧，这里都是懂你的人，总有人回复你。说你想说的，鼓励与安慰、烦恼与压力，释放自己，也成全别人。</p>
+                   </div>
+                    <a href="javascript:;" class="pic-img"><img src="images/022.gif" data-original="images/3.jpg" srv="http://t12.baidu.com/it/u=4224136820,222817142&fm=32&s=CE73A55661C252F05E652DCE010070E2&w=623&h=799&img.JPEG"></a>
+                </li>
+                <li>
+                    <span class="arrow l-side"></span>
+                    <span class="arrow t-side"></span>
+                    <span class="arrow r-side"></span>
+                    <span class="arrow b-side"></span>
+                    <span class="arrow l-t"></span>
+                    <span class="arrow r-t"></span>
+                    <span class="arrow l-bt"></span>
+                    <span class="arrow r-bt"></span>
+                    <p class="pic-title"><span class="font16">会飞的鱼</span></p>
+                    <div class="loaction clearfix">
+                       <p>如果还有话想说，就在评论里留言吧，这里都是懂你的人，总有人回复你。说你想说的，鼓励与安慰、烦恼与压力，释放自己，也成全别人。</p>
+                   </div>
+                    <a href="javascript:;" class="pic-img"><img src="images/022.gif" data-original="images/2.jpg" srv="http://t12.baidu.com/it/u=4224136820,222817142&fm=32&s=CE73A55661C252F05E652DCE010070E2&w=623&h=799&img.JPEG"></a>
+                </li>
+            </ul>
+            <ul class="col floatleft">
+                <li>
+                    <span class="arrow l-side"></span>
+                    <span class="arrow t-side"></span>
+                    <span class="arrow r-side"></span>
+                    <span class="arrow b-side"></span>
+                    <span class="arrow l-t"></span>
+                    <span class="arrow r-t"></span>
+                    <span class="arrow l-bt"></span>
+                    <span class="arrow r-bt"></span>
+                    <p class="pic-title"><span class="font16">行走江湖</span></p>
+                    <div class="loaction clearfix">
+                       <p>如果还有话想说，就在评论里留言吧，这里都是懂你的人，总有人回复你。说你想说的，鼓励与安慰、烦恼与压力，释放自己，也成全别人。</p>
+                   </div>
+                    <a href="javascript:;" class="pic-img"><img src="images/022.gif" data-original="images/3.jpg" srv="http://t12.baidu.com/it/u=4224136820,222817142&fm=32&s=CE73A55661C252F05E652DCE010070E2&w=623&h=799&img.JPEG"></a>
+                </li>
+                <li>
+                    <span class="arrow l-side"></span>
+                    <span class="arrow t-side"></span>
+                    <span class="arrow r-side"></span>
+                    <span class="arrow b-side"></span>
+                    <span class="arrow l-t"></span>
+                    <span class="arrow r-t"></span>
+                    <span class="arrow l-bt"></span>
+                    <span class="arrow r-bt"></span>
+                    <p class="pic-title"><span class="font16">刘德华</span></p>
+                    <div class="loaction clearfix">
+                       <p>如果还有话想说，就在评论里留言吧，这里都是懂你的人，总有人回复你。说你想说的，鼓励与安慰、烦恼与压力，释放自己，也成全别人。</p>
+                   </div>
+                    <a href="javascript:;" class="pic-img"><img src="images/022.gif" data-original="images/5.jpg" srv="http://t12.baidu.com/it/u=4224136820,222817142&fm=32&s=CE73A55661C252F05E652DCE010070E2&w=623&h=799&img.JPEG"></a>
+                </li>
+                <li>
+                    <span class="arrow l-side"></span>
+                    <span class="arrow t-side"></span>
+                    <span class="arrow r-side"></span>
+                    <span class="arrow b-side"></span>
+                    <span class="arrow l-t"></span>
+                    <span class="arrow r-t"></span>
+                    <span class="arrow l-bt"></span>
+                    <span class="arrow r-bt"></span>
+                    <p class="pic-title"><span class="font16">行走江湖</span></p>
+                    <div class="loaction clearfix">
+                       <p>如果还有话想说，就在评论里留言吧，这里都是懂你的人，总有人回复你。说你想说的，鼓励与安慰、烦恼与压力，释放自己，也成全别人。</p>
+                   </div>
+                    <a href="javascript:;" class="pic-img"><img src="images/022.gif" data-original="images/2.jpg" srv="http://t12.baidu.com/it/u=4224136820,222817142&fm=32&s=CE73A55661C252F05E652DCE010070E2&w=623&h=799&img.JPEG"></a>
+                </li>
+                <li>
+                    <span class="arrow l-side"></span>
+                    <span class="arrow t-side"></span>
+                    <span class="arrow r-side"></span>
+                    <span class="arrow b-side"></span>
+                    <span class="arrow l-t"></span>
+                    <span class="arrow r-t"></span>
+                    <span class="arrow l-bt"></span>
+                    <span class="arrow r-bt"></span>
+                    <p class="pic-title"><span class="font16">会飞的鱼</span></p>
+                    <div class="loaction clearfix">
+                       <p>如果还有话想说，就在评论里留言吧，这里都是懂你的人，总有人回复你。说你想说的，鼓励与安慰、烦恼与压力，释放自己，也成全别人。</p>
+                   </div>
+                    <a href="javascript:;" class="pic-img"><img src="images/022.gif" data-original="images/4.jpg" srv="http://t12.baidu.com/it/u=4224136820,222817142&fm=32&s=CE73A55661C252F05E652DCE010070E2&w=623&h=799&img.JPEG"></a>
+                </li>
+            </ul>
+            <ul class="col floatleft">
+                <li>
+                    <span class="arrow l-side"></span>
+                    <span class="arrow t-side"></span>
+                    <span class="arrow r-side"></span>
+                    <span class="arrow b-side"></span>
+                    <span class="arrow l-t"></span>
+                    <span class="arrow r-t"></span>
+                    <span class="arrow l-bt"></span>
+                    <span class="arrow r-bt"></span>
+                    <p class="pic-title"><span class="font16">行走江湖</span></p>
+                    <div class="loaction clearfix">
+                       <p>如果还有话想说，就在评论里留言吧，这里都是懂你的人，总有人回复你。说你想说的，鼓励与安慰、烦恼与压力，释放自己，也成全别人。</p>
+                   </div>
+                    <a href="javascript:;" class="pic-img"><img src="images/022.gif" data-original="images/1.jpg" srv="http://t12.baidu.com/it/u=4224136820,222817142&fm=32&s=CE73A55661C252F05E652DCE010070E2&w=623&h=799&img.JPEG"></a>
+                </li>
+                <li>
+                    <span class="arrow l-side"></span>
+                    <span class="arrow t-side"></span>
+                    <span class="arrow r-side"></span>
+                    <span class="arrow b-side"></span>
+                    <span class="arrow l-t"></span>
+                    <span class="arrow r-t"></span>
+                    <span class="arrow l-bt"></span>
+                    <span class="arrow r-bt"></span>
+                    <p class="pic-title"><span class="font16">刘德华</span></p>
+                    <div class="loaction clearfix">
+                       <p>如果还有话想说，就在评论里留言吧，这里都是懂你的人，总有人回复你。说你想说的，鼓励与安慰、烦恼与压力，释放自己，也成全别人。</p>
+                   </div>
+                    <a href="javascript:;" class="pic-img"><img src="images/022.gif" data-original="images/2.jpg" srv="http://t12.baidu.com/it/u=4224136820,222817142&fm=32&s=CE73A55661C252F05E652DCE010070E2&w=623&h=799&img.JPEG"></a>
+                </li>
+                <li>
+                    <span class="arrow l-side"></span>
+                    <span class="arrow t-side"></span>
+                    <span class="arrow r-side"></span>
+                    <span class="arrow b-side"></span>
+                    <span class="arrow l-t"></span>
+                    <span class="arrow r-t"></span>
+                    <span class="arrow l-bt"></span>
+                    <span class="arrow r-bt"></span>
+                    <p class="pic-title"><span class="font16">会飞的鱼</span></p>
+                    <div class="loaction clearfix">
+                       <p>如果还有话想说，就在评论里留言吧，这里都是懂你的人，总有人回复你。说你想说的，鼓励与安慰、烦恼与压力，释放自己，也成全别人。</p>
+                   </div>
+                    <a href="javascript:;" class="pic-img"><img src="images/022.gif" data-original="images/4.jpg" srv="http://t12.baidu.com/it/u=4224136820,222817142&fm=32&s=CE73A55661C252F05E652DCE010070E2&w=623&h=799&img.JPEG"></a>
+                </li>
+                <li>
+                    <span class="arrow l-side"></span>
+                    <span class="arrow t-side"></span>
+                    <span class="arrow r-side"></span>
+                    <span class="arrow b-side"></span>
+                    <span class="arrow l-t"></span>
+                    <span class="arrow r-t"></span>
+                    <span class="arrow l-bt"></span>
+                    <span class="arrow r-bt"></span>
+                    <p class="pic-title"><span class="font16">行走江湖</span></p>
+                    <div class="loaction clearfix">
+                       <p>如果还有话想说，就在评论里留言吧，这里都是懂你的人，总有人回复你。说你想说的，鼓励与安慰、烦恼与压力，释放自己，也成全别人。</p>
+                   </div>
+                    <a href="javascript:;" class="pic-img"><img src="images/022.gif" data-original="images/4.jpg" srv="http://t12.baidu.com/it/u=4224136820,222817142&fm=32&s=CE73A55661C252F05E652DCE010070E2&w=623&h=799&img.JPEG"></a>
+                </li>
+                <li>
+                    <span class="arrow l-side"></span>
+                    <span class="arrow t-side"></span>
+                    <span class="arrow r-side"></span>
+                    <span class="arrow b-side"></span>
+                    <span class="arrow l-t"></span>
+                    <span class="arrow r-t"></span>
+                    <span class="arrow l-bt"></span>
+                    <span class="arrow r-bt"></span>
+                   <p class="pic-title"><span class="font16">刘德华</span></p>
+                   <div class="loaction clearfix">
+                       <p>如果还有话想说，就在评论里留言吧，这里都是懂你的人，总有人回复你。说你想说的，鼓励与安慰、烦恼与压力，释放自己，也成全别人。</p>
+                   </div>
+                   <a href="javascript:;" class="pic-img"><img src="images/022.gif" data-original="images/1.jpg" srv="http://t12.baidu.com/it/u=4224136820,222817142&fm=32&s=CE73A55661C252F05E652DCE010070E2&w=623&h=799&img.JPEG"></a>
+                </li>
+            </ul>
+            <ul class="col floatleft">
+                <li>
+                    <span class="arrow l-side"></span>
+                    <span class="arrow t-side"></span>
+                    <span class="arrow r-side"></span>
+                    <span class="arrow b-side"></span>
+                    <span class="arrow l-t"></span>
+                    <span class="arrow r-t"></span>
+                    <span class="arrow l-bt"></span>
+                    <span class="arrow r-bt"></span>
+                    <p class="pic-title"><span class="font16">行走江湖</span></p>
+                    <div class="loaction clearfix">
+                       <p>如果还有话想说，就在评论里留言吧，这里都是懂你的人，总有人回复你。说你想说的，鼓励与安慰、烦恼与压力，释放自己，也成全别人。</p>
+                   </div>
+                    <a href="javascript:;" class="pic-img"><img src="images/022.gif" data-original="images/5.jpg" srv="http://t12.baidu.com/it/u=4224136820,222817142&fm=32&s=CE73A55661C252F05E652DCE010070E2&w=623&h=799&img.JPEG"></a>
+                </li>
+                <li>
+                    <span class="arrow l-side"></span>
+                    <span class="arrow t-side"></span>
+                    <span class="arrow r-side"></span>
+                    <span class="arrow b-side"></span>
+                    <span class="arrow l-t"></span>
+                    <span class="arrow r-t"></span>
+                    <span class="arrow l-bt"></span>
+                    <span class="arrow r-bt"></span>
+                    <p class="pic-title"><span class="font16">行走江湖</span></p>
+                    <div class="loaction clearfix">
+                       <p>如果还有话想说，就在评论里留言吧，这里都是懂你的人，总有人回复你。说你想说的，鼓励与安慰、烦恼与压力，释放自己，也成全别人。</p>
+                   </div>
+                    <a href="javascript:;" class="pic-img"><img src="images/022.gif" data-original="images/3.jpg" srv="http://t12.baidu.com/it/u=4224136820,222817142&fm=32&s=CE73A55661C252F05E652DCE010070E2&w=623&h=799&img.JPEG"></a>
+                </li>
+                <li>
+                    <span class="arrow l-side"></span>
+                    <span class="arrow t-side"></span>
+                    <span class="arrow r-side"></span>
+                    <span class="arrow b-side"></span>
+                    <span class="arrow l-t"></span>
+                    <span class="arrow r-t"></span>
+                    <span class="arrow l-bt"></span>
+                    <span class="arrow r-bt"></span>
+                    <p class="pic-title"><span class="font16">行走江湖</span></p>
+                    <div class="loaction clearfix">
+                       <p>如果还有话想说，就在评论里留言吧，这里都是懂你的人，总有人回复你。说你想说的，鼓励与安慰、烦恼与压力，释放自己，也成全别人。</p>
+                    </div>
+                    <a href="javascript:;" class="pic-img"><img src="images/022.gif" data-original="images/2.jpg" srv="http://t12.baidu.com/it/u=4224136820,222817142&fm=32&s=CE73A55661C252F05E652DCE010070E2&w=623&h=799&img.JPEG"></a>
+                </li>
+                <li>
+                    <span class="arrow l-side"></span>
+                    <span class="arrow t-side"></span>
+                    <span class="arrow r-side"></span>
+                    <span class="arrow b-side"></span>
+                    <span class="arrow l-t"></span>
+                    <span class="arrow r-t"></span>
+                    <span class="arrow l-bt"></span>
+                    <span class="arrow r-bt"></span>
+                    <p class="pic-title"><span class="font16">行走江湖</span></p>
+                    <div class="loaction clearfix">
+                       <p>如果还有话想说，就在评论里留言吧，这里都是懂你的人，总有人回复你。说你想说的，鼓励与安慰、烦恼与压力，释放自己，也成全别人。</p>
+                    </div>
+                    <a href="javascript:;" class="pic-img"><img src="images/022.gif" data-original="images/4.jpg" srv="http://t12.baidu.com/it/u=4224136820,222817142&fm=32&s=CE73A55661C252F05E652DCE010070E2&w=623&h=799&img.JPEG"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--大图展示begin-->
+<div class="pop">
+    <span class="arrow l-side"></span>
+    <span class="arrow t-side"></span>
+    <span class="arrow r-side"></span>
+    <span class="arrow b-side"></span>
+    <span class="arrow l-t"></span>
+    <span class="arrow r-t"></span>
+    <span class="arrow l-bt"></span>
+    <span class="arrow r-bt"></span>
+    <a href="javascript:;" class="off"></a>
+    <p class="BigImg"></p>
+    <div class="txt font14 color-white">
+        <p class="font24">叶子</p>
+        <p class="mart10">春暖花开春暖花开春暖花开春暖花开春暖花开春暖花开春暖花开春暖花开春暖花开春暖花开春暖花开春暖花开春暖花开春暖花开春暖花开春暖花开春暖花开春暖花开春暖花开春暖花开春暖花开春暖花开春暖花开春暖花开</p>
+    </div>
+</div>
+<!--大图展示over-->
+<!--遮罩层begin-->
+<div class="mask"></div>
+<!--遮罩层over-->
+<div class="footer aligncenter">
+    <span>东风标致国产车热线：400-8877-108</span> &nbsp;|
+    <a href="javascript:;">东风标致官网</a>|
+    <a href="javascript:;">经销商查询</a>|
+    <a href="javascript:;"><img src="images/tmall.gif">&nbsp;东风标致官方旗舰店</a>
+    <span class="marl30">东风标致版权所有&nbsp;&nbsp;&nbsp;京ICP备05021113号</span>
+    <span class="marl30">
+    <em class="marr10">分享到</em>
+    <a href="javascript:;" class="icon wb"></a>
+    <a href="javascript:;" class="icon tx"></a>
+    <a href="javascript:;" class="icon rr"></a>
+    <a href="javascript:;" class="icon kx"></a>
+    <a href="javascript:;" class="icon db"></a>
+    </span>
+</div>
+</body>
+</html>

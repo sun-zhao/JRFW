@@ -1,0 +1,62 @@
+/**
+ * Created by zhaoyang on 15-5-8.
+ */
+$(document).ready(function(){
+    var $listLi = $('.list').find('li'),
+        $imgShow = $('.imgShow'),
+        $off =$('.off'),
+        $imgBox= $('.imgBox'),
+        $name = $imgShow.find('.name');
+    $listLi.on('click',function(){
+        var $this = $(this);
+        $imgShow.addClass('current');
+        $imgBox.append('<img src="' + $this.find('img').attr('src') + '" />');
+        $name.text($this.find('.title').text());
+    });
+//    $listLi.off('touchstrat').on('touchstart',function(){
+//		var $this = $(this);
+//		var startTouch  = event.touches[0];
+//		StartX = startTouch.pageX;
+//		StartY = startTouch.pageY;
+//		$this.off('touchmove').on('touchmove',function(){
+//			var moveTouch  = event.touches[0];
+//			endX = moveTouch.pageX;
+//			endY = moveTouch.pageY;
+//		});
+//		$this.off('touchend').on('touchend',function(){
+//			x = endX - StartX;
+//			y = endY - StartY;
+//			if(Math.abs(x)<30 && Math.abs(y)<=5){
+//				$imgShow.addClass('current');
+//                $imgBox.append('<img src="' + $this.find('img').attr('src') + '" />');
+//                $name.text($this.find('.title').text());
+//			}
+//		});
+//	});
+    $imgShow.off('touchstrat').on('touchstart',function(){
+		var $this = $(this);
+		var startTouch  = event.touches[0];
+		StartX = startTouch.pageX;
+		StartY = startTouch.pageY;
+		$this.off('touchmove').on('touchmove',function(){
+			var moveTouch  = event.touches[0];
+			endX = moveTouch.pageX;
+			endY = moveTouch.pageY;
+		});
+		$this.off('touchend').on('touchend',function(){
+			x = endX - StartX;
+			y = endY - StartY;
+			if(x>=20 && Math.abs(y)<10){
+				$imgShow.removeClass('current');
+                $imgBox.find('img').remove();
+                $name.text("");
+			}
+		});
+	});
+    $off.on('click',function(){
+		var $this = $(this);
+		$imgShow.removeClass('current');
+        $imgBox.find('img').remove();
+        $name.text("");
+	});
+});

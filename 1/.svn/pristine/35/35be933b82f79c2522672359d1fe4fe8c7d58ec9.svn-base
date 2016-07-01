@@ -1,0 +1,81 @@
+/**
+ * Created with JetBrains WebStorm.
+ * User: zhaoyang
+ * Date: 13-12-11
+ * Time: 上午11:12
+ * To change this template use File | Settings | File Templates.
+ */
+$(function(){
+	function changeLogo(){
+		var logoShowed = $('.logo a:visible');
+		var logoHided = logoShowed.siblings();
+		logoShowed.fadeOut(3000);
+		logoHided.fadeIn(3000,function(){
+			changeLogo();
+		});
+	}
+	changeLogo();
+    var $colLi = $(".col li"),
+        $mask = $('.mask'),
+        $off = $('.off'),
+        $pop = $('.pop'),
+        $bigShow = $('.BigImg');
+    $(".pic-img img").load(function(){
+        $colLi.hover(function(){
+            var $this =$(this);
+            var ImgH =$this.find(".pic-img img").height();
+            var el =$this.find('.loaction');
+            var curHeight = el.height();
+            var autoHeight = el.css('height', 'auto').height();
+            if(el.children().size()==0){
+                return;
+            }else{
+                el.height(curHeight).stop().animate({height: ImgH}, 300);
+            }
+            el.show();
+//        curHeight = el.height();
+//        autoHeight = el.css('height', 'auto').height();
+        },function(){
+            var el = $(this).find('.loaction');
+            if(el.children().size()==0){
+                return;
+            }else{
+                el.show();
+                var curHeight = el.height();
+                var autoHeight = el.css('height', 'auto').height();
+                el.height(curHeight).stop().animate({height:0},200,function(){
+                    el.hide();
+                });
+            }
+        });
+    });
+    //  点击查看大图
+    $colLi.click(function(){
+        var $this = $(this),
+            $thisImg = $this.find('img'),
+            $setTop = $this.offset().top;
+        $mask.show();
+        $pop.show();
+        $bigShow.append('<img src="' + $this.find('img').attr('srv') + '" />');
+        $bigShow.find('img').load(function(){
+            var $w = $bigShow.find('img').width(),
+                $h = $bigShow.find('img').height();
+            $pop.animate({
+                top:$setTop,
+                width:$w,
+                marginLeft:-0.5*$w
+            },300);
+            $bigShow.animate({
+                height:$h
+            },300);
+        });
+    });
+    $off.click(function(){
+        $mask.fadeOut();
+        $pop.hide();
+        $bigShow.empty();
+    });
+    $mask.click(function(){
+        $off.click();
+    });
+});
